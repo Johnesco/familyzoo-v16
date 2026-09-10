@@ -1,32 +1,31 @@
-# Family Zoo — v16 — Scoring and Endgame
+# Family Zoo — v16: After Hours & the TypeScript Hatch
 
-Turns the zoo into a 75-point game with an ending: visit rooms, feed animals, and collect items to win. Introduces the score ledger, unique award IDs, and a victory daemon that watches for the win condition.
+The zoo closes. A story state flips, the zookeeper leaves, and the parrot starts speaking candidly — and the parrot's flavour line comes from TypeScript, the one escape hatch Chord keeps.
 
-Step 16 of the [Family Zoo](https://github.com/Johnesco/familyzoo) tutorial — a progressive walkthrough of the [Sharpee](https://sharpee.net) TypeScript interactive fiction engine, from a single room to a full multi-file story.
+Step 16 of sixteen in the [Family Zoo](https://github.com/Johnesco/familyzoo) tutorial for [Chord](https://sharpee.net/chord/), the authoring language of the [Sharpee](https://sharpee.net) interactive fiction engine.
 
-## What this step teaches
+## What this step adds
 
-- world.setMaxScore and world.awardScore with idempotent unique IDs
-- world.getScore and the built-in score command
-- Chained event handlers awarding points on room entry
-- A high-priority victory daemon driving endgame state flags
-- Designing a balanced scoring table across exploration and action
+- `states: open, after-hours` in the header
+- `while after-hours` on clauses and descriptions
+- `define sequence closing time` driving the transition
+- `define text flavor from "./chord-extras.ts"` (ADR-259)
+- When to reach for the hatch — and when not to
 
-## Playing
+## The source
 
-Open `play.html`, or preview the folder:
+The whole step is one file: [`familyzoo-v16.story`](./familyzoo-v16.story) — the step before it plus the ideas above. The chapter that walks through it is [`docs/v16-after-hours-the-typescript-hatch.md`](./docs/v16-after-hours-the-typescript-hatch.md).
 
-```bash
-python -m http.server 8000 --directory familyzoo-v16
-```
-
-## Building
-
-This is a **frozen 0.9.x TypeScript version**. The built player in this folder is the published artifact; it is re-laid from `browser/` by the workspace build:
+## Playing and testing
 
 ```bash
-python ../tools/build.py familyzoo-v16
-python C:/code/ifhub/tools/ship.py familyzoo-v16
+npx sharpee play
+npx sharpee test          # replays familyzoo-v16.tests.json
+python ../tools/build.py familyzoo-v16 --force
 ```
 
-The authoring tree for every version lives in the [familyzoo](https://github.com/Johnesco/familyzoo) repo.
+## Engine
+
+Pinned to `@sharpee/*` **5.3.0** (Chord 3.6.0), held there by an `overrides` block: 5.3.1 publishes broken subpath exports and breaks `sharpee test`.
+
+The 0.9.x TypeScript edition this replaced is kept in [`legacy/`](./legacy).

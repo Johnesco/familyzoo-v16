@@ -3,7 +3,7 @@ story
   authors:
     John Googol
   id: familyzoo-v16
-  ifid: FBEEE652-2ED0-4760-97F1-8FC5F69BCED1
+  ifid: EC443532-929F-4E47-8E1F-2670AADFE662
   story-version: 0.0.2
   description: Sharpee tutorial step 16 — story states, a closing sequence, and `define text ... from`.
   states: open, after-hours

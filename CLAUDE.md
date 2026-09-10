@@ -11,8 +11,9 @@
 
 **Name:** Family Zoo — v16 — Scoring and Endgame
 **Purpose:** Sharpee tutorial step 16 — Scoring and Endgame.
-**Engine:** Sharpee, the 0.9.x TypeScript pipeline (pinned in `package.json` in the
-authoring repo — this folder ships built output only).
+**Engine:** Sharpee / Chord. The exact version is pinned in `package.json` (with an
+`overrides` block holding the transitive set there too); the workspace `CLAUDE.md` is
+the one home for which version that is and why.
 **Repository:** https://github.com/Johnesco/familyzoo-v16
 **Live:** https://johnesco.github.io/familyzoo-v16/
 
@@ -30,8 +31,8 @@ as separate repos so the hub can show the whole trail; the model is
 - **Frozen.** This step is published history. Do not add features. The cascade rule from the
   multi-version guide applies: a fix in vN propagates *upward* to v(N+1)… and Current,
   never downward.
-- **Stays on the 0.9.x TypeScript pipeline.** The tutorial teaches that API. Translating
-  it to Chord would delete the thing it exists to explain.
+- **Chord, not TypeScript.** Reworked from the 0.9.x TypeScript edition on
+  2026-09-10; the old edition is kept in `legacy/`.
 - **Built output is the artifact.** `play.html`, the bundle, `source.html`, `tests.html`
   and the walkthrough files are committed and served by GitHub Pages.
 
@@ -84,6 +85,9 @@ workflow. Claude must follow these canonical docs:
 3. **Claude cannot QA its own work.** The Verify column is always human-owned.
 
 ### Project-specific deviations
+
+The steps are **generated**, not hand-edited: each one is `familyzoo.story` sliced to the blocks introduced at or before this step, with per-step room prose so a description never names a thing the step has not created yet. Change the master and the step map, then re-lay the steps — do not hand-edit `familyzoo-v16.story`.
+
 
 Split out of the familyzoo monorepo on 2026-09-10 so each tutorial step could be its own
 hub entry. The authoring tree for all 17 steps stays in `familyzoo/`.
