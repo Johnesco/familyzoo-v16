@@ -1,70 +1,74 @@
 {
-  "version": 1,
-  "story": "familyzoo-v16",
-  "seed": 42,
   "cards": [
     {
-      "type": "opening",
       "assertions": {
         "channels": [
           {
             "id": "info.title",
-            "is": "Family Zoo (v16 — After Hours & the TypeScript Hatch)"
+            "is": "Family Zoo (v16 — After Hours & First-Time Text)"
           },
           {
             "id": "info.description",
-            "is": "Sharpee tutorial step 16 — story states, a closing sequence, and `define text ... from`."
+            "is": "Sharpee tutorial step 16 — story states, a closing sequence, conditions joined with `and`, and a `first-time` phrase."
           }
         ]
-      }
+      },
+      "id": "za1zhrl1",
+      "type": "opening"
     },
     {
-      "type": "boot",
       "assertions": {
         "contains": [
           "Zoo Entrance",
           "Your family piles out of the car, buzzing with excitement — a whole day at the zoo! You st"
         ]
-      }
+      },
+      "id": "gsyjs12n",
+      "type": "boot"
     },
     {
-      "type": "turn",
-      "command": "south",
       "assertions": {
         "contains": [
           "Main Path",
           "A wide gravel path winds through the heart of the zoo. Colorful direction signs point ever"
         ]
-      }
+      },
+      "command": "south",
+      "id": "tt5xubcf",
+      "type": "turn"
     },
     {
-      "type": "turn",
-      "command": "west",
       "assertions": {
         "contains": [
           "Aviary",
           "You step inside a soaring mesh dome. Brilliantly colored parrots chatter from rope perches"
         ]
-      }
+      },
+      "command": "west",
+      "id": "6m0x89ro",
+      "type": "turn"
     },
     {
-      "type": "turn",
-      "command": "x parrot",
       "assertions": {
         "contains": [
           "A magnificent scarlet macaw perched on a rope. It tilts its head and watches you with one ",
           "The parrot ruffles its scarlet feathers and whistles a jaunty tune. (A small plaque notes "
         ]
-      }
+      },
+      "command": "x parrot",
+      "id": "qqjyy55h",
+      "type": "turn"
     },
     {
-      "type": "turn",
-      "command": "score",
       "assertions": {
         "contains": [
           "You have scored 5 out of a possible 85."
         ]
-      }
+      },
+      "command": "score",
+      "id": "xotevy8u",
+      "type": "turn"
     }
-  ]
+  ],
+  "id": "h0fbkk68"
 }
