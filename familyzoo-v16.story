@@ -1,5 +1,5 @@
 story
-  title: Family Zoo (v16 — After Hours & First-Time Text)
+  title: Family Zoo (v16 — After Hours & Story States)
   authors:
     John Googol
   id: familyzoo-v16

@@ -1,4 +1,4 @@
-# Family Zoo — v16: After Hours & First-Time Text
+# Family Zoo — v16: After Hours & Story States
 
 The zoo closes. A story state flips, the zookeeper leaves, and once he is gone each animal tells you what it really thinks when you visit it. The parrot's flavour line cycles, and the plaque's aside is printed only the first time — both written in Chord.
 
@@ -15,7 +15,7 @@ Step 16 of sixteen in the [Family Zoo](https://github.com/Johnesco/familyzoo) tu
 
 ## The source
 
-The whole step is one file: [`familyzoo-v16.story`](./familyzoo-v16.story) — the step before it plus the ideas above. The chapter that walks through it is [`docs/v16-after-hours-first-time-text.md`](./docs/v16-after-hours-first-time-text.md).
+The whole step is one file: [`familyzoo-v16.story`](./familyzoo-v16.story) — the step before it plus the ideas above. The chapter that walks through it is [`docs/v16-after-hours-story-states.md`](./docs/v16-after-hours-story-states.md).
 
 ## Playing and testing
 
