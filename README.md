@@ -15,7 +15,7 @@ Step 16 of sixteen in the [Family Zoo](https://github.com/Johnesco/familyzoo) tu
 
 ## The source
 
-The whole step is one file: [`familyzoo-v16.story`](./familyzoo-v16.story) — the step before it plus the ideas above. The chapter that walks through it is [`docs/v16-after-hours-story-states.md`](./docs/v16-after-hours-story-states.md).
+The whole step is one file: [`familyzoo-v16.story`](./familyzoo-v16.story) — the step before it plus the ideas above. Where it sits in the trail is on the [group page](https://johnesco.github.io/familyzoo/#familyzoo-v16).
 
 ## Playing and testing
 
