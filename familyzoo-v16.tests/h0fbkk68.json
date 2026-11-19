@@ -11,20 +11,14 @@
             "id": "info.description",
             "is": "Sharpee tutorial step 16 — story states, a closing sequence, conditions joined with `and`, and a `first-time` phrase."
           }
-        ]
-      },
-      "id": "za1zhrl1",
-      "type": "opening"
-    },
-    {
-      "assertions": {
+        ],
         "contains": [
           "Zoo Entrance",
           "Your family piles out of the car, buzzing with excitement — a whole day at the zoo! You st"
         ]
       },
-      "id": "gsyjs12n",
-      "type": "boot"
+      "id": "za1zhrl1",
+      "type": "opening"
     },
     {
       "assertions": {
