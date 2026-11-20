@@ -164,7 +164,7 @@ The parrot glances at you and nods, as if recognizing a fellow after-hours regul
 
 The parrot clears its throat — actually clears its throat — and fixes you with a knowing look. "Right then. Now that the performative squawking is over, let me tell you something: that toucan? Complete fraud. Can't even crack a nut properly. And don't get me started on the gift shop markup."
 
-Between you and me, the toucan is a complete diva. Won't shut up about its bill.
+I have a degree in ornithology, you know. Well, I would, if birds could enroll.
 
 > x toucan
 A Toco toucan with an enormous orange-and-black bill.
@@ -172,10 +172,10 @@ A Toco toucan with an enormous orange-and-black bill.
 > x toco toucan
 A Toco toucan with an enormous orange-and-black bill.
 
-I have a degree in ornithology, you know. Well, I would, if birds could enroll.
-
 > x waterfall
 A gentle artificial waterfall cascading into a stone basin.
+
+Between you and me, the toucan is a complete diva. Won't shut up about its bill.
 
 > x water
 A gentle artificial waterfall cascading into a stone basin.
@@ -183,10 +183,12 @@ A gentle artificial waterfall cascading into a stone basin.
 > x rope perches
 Thick sisal ropes strung between wooden posts.
 
-You seem alright. Most visitors just want selfies. At least you're still here.
+I have a degree in ornithology, you know. Well, I would, if birds could enroll.
 
 > x perches
 Thick sisal ropes strung between wooden posts.
+
+You seem alright. Most visitors just want selfies. At least you're still here.
 
 > x aviary plaque
 A colorful information board near the aviary entrance.
@@ -200,14 +202,20 @@ TOCO TOUCAN — Its bill weighs less than a smartphone.
 
 SCARLET MACAW — Can live over 75 years. Our oldest, Captain, is 42.
 
+Between you and me, the toucan is a complete diva. Won't shut up about its bill.
+
 > x information board
 A colorful information board near the aviary entrance.
 
 > x parrot
 A magnificent scarlet macaw perched on a rope. It tilts its head and watches you with one bright eye. The parrot ruffles its scarlet feathers and whistles a jaunty tune. (A small plaque notes the macaws are rescues from the illegal pet trade.)
 
+Finally, they're gone. Do you know how exhausting it is to say "Polly wants a cracker" eight hours a day?
+
 > talk to parrot
 The parrot doesn't respond.
+
+The gift shop markup is criminal. Three dollars for a postcard? In this economy?
 
 > x macaw
 A magnificent scarlet macaw perched on a rope. It tilts its head and watches you with one bright eye. The parrot cocks its head and rasps, "Pretty bird! Pretty bird!" 
@@ -215,8 +223,12 @@ A magnificent scarlet macaw perched on a rope. It tilts its head and watches you
 > x parrots
 A raucous flock of scarlet macaws and grey African parrots.
 
+Between you and me, the toucan is a complete diva. Won't shut up about its bill.
+
 > x macaws
 A raucous flock of scarlet macaws and grey African parrots.
+
+Between you and me, the toucan is a complete diva. Won't shut up about its bill.
 
 > x parrot
 A magnificent scarlet macaw perched on a rope. It tilts its head and watches you with one bright eye. The parrot preens one wing, ignoring you with theatrical disdain. 
@@ -637,15 +649,11 @@ The parrot glances at you and nods, as if recognizing a fellow after-hours regul
 > take toucan
 The toucan is fixed in place.
 
-I have a degree in ornithology, you know. Well, I would, if birds could enroll.
-
 > take waterfall
 The waterfall is fixed in place.
 
 > take rope perches
 The rope perches are fixed in place.
-
-You seem alright. Most visitors just want selfies. At least you're still here.
 
 > take aviary plaque
 The aviary plaque is fixed in place.
@@ -653,10 +661,10 @@ The aviary plaque is fixed in place.
 > pet parrot
 You reach toward the parrot. CHOMP! It nips your finger with its beak. "NO TOUCHING!" it squawks indignantly.
 
-I have a degree in ornithology, you know. Well, I would, if birds could enroll.
-
 > take parrots
 The parrots are fixed in place.
+
+The gift shop markup is criminal. Three dollars for a postcard? In this economy?
 
 > east
 Main Path
@@ -757,8 +765,6 @@ You step inside a soaring mesh dome. Brilliantly colored parrots chatter from ro
 You can see a parrot here.
 
 The parrot glances at you and nods, as if recognizing a fellow after-hours regular.
-
-The gift shop markup is criminal. Three dollars for a postcard? In this economy?
 
 > west
 Gift Shop
